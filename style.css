@@ -1,0 +1,176 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+  }
+  h1{
+    position: relative ;
+    margin-left: 550px;
+    background-color: rgb(228, 78, 103) ;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    
+display: inline-block;
+    
+  }
+  .i{
+    color: red;
+  }
+
+  .C1{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid #e2e9e1;
+  }
+  
+  /*the product container (image,name,price ,quantity and like)*/
+  
+  #shopping-cart {
+      width: 60%;
+      padding: 30px; 
+    }
+  
+    #pproducts {
+      width: 100%;
+      border-collapse: collapse; 
+      
+    }
+  
+   
+    
+  
+    .H1{
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 20px; 
+      border: 1px solid #e2e9e1;
+      padding: 5px;
+      width: 80px;
+      gap: 50px;
+      
+        
+    }
+
+    .H1{
+      background-color: rgb(228, 78, 103) ;
+      color: #fff;
+      padding: 10px 10px;
+      border-radius:5px;
+     }
+     
+    
+    
+    .shopping-cart img {
+      width: 50px;
+      border-radius: 50%;
+      border: 2px solid rgb(199, 110, 77);
+    }
+    
+    .shopping-cart .name {
+      font-weight: bold;
+       
+    }
+    .shopping-cart .price{
+      color: rgb(122, 126, 129);
+    }
+   
+    
+    .shopping-cart .quantity-container {
+      display: flex;
+      justify-content: space-evenly;
+      width: 80px;
+      
+    }
+  
+    .normal {
+      font-size: inherit;
+       background-color:transparent ;
+       outline: none;
+       border: none; 
+     }
+     
+     
+     .normal:hover {
+       cursor: pointer;
+       animation: Wizz 0.3s;
+       
+     }
+    
+     .pproduct {
+        font-size: inherit;
+         background-color:transparent ;
+         outline: none;
+         border: none; 
+       }
+   .pproduct button:hover {
+    cursor: pointer;
+    animation: Wizz 0.5s;
+
+  }
+     
+     @keyframes Wizz {
+       0%,
+       100% {
+         transform: scale(1, 1);
+       }
+       25% {
+         transform: scale(0.9, 1.1);
+       }
+       50% {
+         transform: scale(1.1, 0.9);
+       }
+       75% {
+         transform: scale(0.95, 1.05);
+       }
+     }
+  
+   
+    .shopping-cart .heart{
+      cursor: pointer;
+      
+    }
+    
+    .shopping-cart {
+      color: red;
+      cursor: pointer;
+    }
+    .liked{
+        color: red;
+    }
+    
+
+   #total{
+      width: 40%;
+      padding: 30px;
+      align-self: flex-end;
+      display: flex;
+      flex-direction:column; 
+   }
+  #total table{
+      border-collapse: collapse;
+      width: 100%;
+  
+      
+  }
+  #total table td{
+      width: 50%;
+      border: 1px solid #e2e9e1;
+      padding: 10px;
+      font-size: 13px;
+  }
+  
+  
+  #total button{
+    background-color: rgb(228, 78, 103);
+    color: #fff;
+    padding: 12px 20px;
+    width: 20%;
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+
+  
